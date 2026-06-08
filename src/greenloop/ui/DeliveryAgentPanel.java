@@ -1,3 +1,5 @@
+//Creates the graphical interface
+
 package greenloop.ui;
 
 import greenloop.dao.DeliveryAgentDAO;
@@ -17,6 +19,7 @@ public class AgentPanel extends JPanel {
         setOpaque(false);
         setLayout(new BorderLayout());
 
+        //create table structure
         agentModel = new DefaultTableModel(new String[]{"Agent ID", "Name", "Vehicle Type", "Email"}, 0);
         agentTable = new JTable(agentModel);
         agentTable.setBackground(Dashboard.C_CARD);
