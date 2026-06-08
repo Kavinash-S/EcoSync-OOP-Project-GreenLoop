@@ -1,3 +1,5 @@
+//stores delivery agent information
+
 package greenloop.models;
 
 // Class to store delivery agent details for the logistics module
@@ -16,8 +18,8 @@ public class DeliveryAgent {
     }
 
     // Standard getters and setters below
-    public String getAgentId() { return agentId; }
-    public void setAgentId(String agentId) { this.agentId = agentId; }
+    public String getAgentId() { return agentId; }  //get - retrieve data
+    public void setAgentId(String agentId) { this.agentId = agentId; }   //set - update data
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
     public String getVehicleDetails() { return vehicleDetails; }
